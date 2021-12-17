@@ -1,0 +1,26 @@
+{
+    "name": "nekoos/laravel-extendable-response",
+    "description": "Add pagination in headers for Laravel projects",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "exclude-from-classmap": [],
+        "files": []
+    },
+    "authors": [
+        {
+            "name": "Neder Alfonso Fandiño Andrade",
+            "email": "neder.fandino@outlook.com"
+        }
+    ],
+    "require": {
+        "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": []
+        }
+    }
+}
