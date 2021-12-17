@@ -6,8 +6,15 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "autoload": {
-        "exclude-from-classmap": [],
-        "files": []
+        "exclude-from-classmap": [
+            "vendor/laravel/framework/src/Illuminate/Http/Resources/Json/PaginatedResourceResponse.php"
+        ],
+        "files": [
+            "src/PaginationServiceProvider.php",
+            "src/PaginatedResourceResponse.php",
+            "src/HeaderLinkTransform.php",
+            "src/HeaderPaginationLinkTransform.php"
+        ]
     },
     "authors": [
         {
@@ -20,7 +27,9 @@
     },
     "extra": {
         "laravel": {
-            "providers": []
+            "providers": [
+                "\\NekoOs\\Pagination\\PaginationServiceProvider"
+            ]
         }
     }
 }
